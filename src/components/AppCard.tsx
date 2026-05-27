@@ -16,8 +16,8 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
       
       <div className="card-body">
         <div className="metric-box">
-          <span className="metric-label">모니터링 지표</span>
-          <span className="metric-value">{app.metric || '지정 안됨'}</span>
+          <span className="metric-label">{app.metric || '지정 안됨'}</span>
+          <span className="metric-value">{app.metricValue ? app.metricValue : '데이터 없음'}</span>
         </div>
       </div>
       
