@@ -75,3 +75,8 @@
   width: 100%;
   text-align: center;
 }
+
+.spinner { display: inline-block; animation: blink 1.5s infinite; }
+@keyframes blink { 0% { opacity: .2; } 20% { opacity: 1; } 100% { opacity: .2; } }
+.error-text { color: #ff6b6b; font-size: 0.8rem; font-weight: normal; }
+.status-indicator.error { background: #ff6b6b; box-shadow: 0 0 8px rgba(255,107,107,0.6); }
