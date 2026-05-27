@@ -1,4 +1,4 @@
-import { SheetData } from '../types';
+import type { SheetData } from '../types';
 
 // .env 파일에 VITE_GOOGLE_APPS_SCRIPT_URL 를 설정해야 합니다.
 const SCRIPT_URL = import.meta.env.VITE_GOOGLE_APPS_SCRIPT_URL;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppData } from '../types';
+import type { AppData } from '../types';
 import './AppCard.css';
 
 interface AppCardProps {

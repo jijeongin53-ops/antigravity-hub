@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Dashboard } from './components/Dashboard';
 import { LinkInputForm } from './components/LinkInputForm';
 import { fetchDashboardData, addAppToSheet } from './api/googleSheets';
-import { AppData, SheetData } from './types';
+import type { SheetData } from './types';
 import './App.css';
 
 function App() {
