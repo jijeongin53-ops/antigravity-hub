@@ -20,7 +20,7 @@ export const AppCard: React.FC<AppCardProps> = ({ app }) => {
         let baseUrl = app.url.replace(/\/$/, '');
         
         // --- 동기화되지 않은 예전 Vercel URL 주소를 방금 배포한 최신 URL 주소로 매핑 ---
-        if (baseUrl === 'https://motrebusan.vercel.app') baseUrl = 'https://qr-audio-app-psi.vercel.app';
+        if (baseUrl === 'https://notrebusan.vercel.app' || baseUrl === 'https://motrebusan.vercel.app') baseUrl = 'https://qr-audio-app-psi.vercel.app';
         if (baseUrl === 'https://rei-j.vercel.app') baseUrl = 'https://personal-profile-app-one.vercel.app';
         if (baseUrl === 'https://rebusan.vercel.app') baseUrl = 'https://rebusan-app.vercel.app';
         
